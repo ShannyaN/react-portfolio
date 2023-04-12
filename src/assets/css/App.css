@@ -27,6 +27,9 @@
   justify-content: center;
   font-size: 2rem;
   color: white;
+  border: #281533 outset 30px;
+  padding:15px
+ 
 }
 
 .App-link {
@@ -48,25 +51,35 @@
 } 
 /* #281533; */
 div .card {
-  margin:3rem;
-  border-style: outset;
-  border-width: 20px;
-  background-color:#281533;
-  color: white
+  margin: 10vw;
+  margin-top: .5vw;
+  border: #281533 outset 30px ;
+  background-color:#d2bddf;
+  color: white;
+  height: 100vh;
+  padding:30px;
+  color:  #35074f; 
 }
 
 .aboutme img {
-  max-width: 50%;
+  max-width: 80%;
   height: auto;
   border-radius: 15px;
+  border-color:white ;
+  border-width: 5px;
+  border-style: solid;
 }
 
 .card h2{
   text-align: center;
   font-size: 4rem;
   padding: 2rem;
+  margin:4rem;
+  border-bottom-color: white;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
 }
 .card p {
   font-size: 2rem;
-  text-align: center;
+  text-align:center;
 }

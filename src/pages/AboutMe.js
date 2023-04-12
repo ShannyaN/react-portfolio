@@ -12,7 +12,7 @@ export default function AboutMe(){
                     </div>
                     <div className='col-md'>
                         <p>
-                        A Hofstra University Biomedical Engineering graduate, pursuing certification in software engineering through a full-stack development bootcamp through Columbia University. I have completed a Co-op at United Therapeutics where I designed, assembled, and tested parts for scientists and managed projects from design to installation of parts in laboratories. I am looking to pursue Medical Devices/Biotechnology post-graduation. I am proficient in HTML, JavaScript, CSS, Node, Express, and Python.
+                        &emsp; A Hofstra University Biomedical Engineering graduate, pursuing certification in software engineering through a full-stack development bootcamp through Columbia University. I have completed a Co-op at United Therapeutics where I designed, assembled, and tested parts for scientists and managed projects from design to installation of parts in laboratories. I am looking to pursue Medical Devices/Biotechnology post-graduation. I am proficient in HTML, JavaScript, CSS, Node, Express, and Python.
                         </p>
                     </div>
                 </div>

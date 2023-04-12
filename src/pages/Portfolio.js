@@ -2,7 +2,19 @@ import React from 'react';
 
 export default function Portfolio(){
     return(
-        <h2>Portfolio</h2>
+      <div className='card aboutme' >
+      <div className='container columns'>
+          <div className='row row-cols-2'>
+              <h2>Portfolio</h2>
+              <div className='col-md card'>
+                  {/* <img src={proPic} alt="Profile."/> */}
+              </div>
+              <div className='col-md card'>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
     )
 };
 // {/* <ul className="nav nav-tabs">
