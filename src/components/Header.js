@@ -1,6 +1,6 @@
 import React from 'react'; 
-import Navbar from './Navbar';
 // import Navbar from './Navbar';
+
 
 function Header({ currentPage, handlePageChange }) {
   return (
@@ -37,4 +37,4 @@ function Header({ currentPage, handlePageChange }) {
   )
 }
 
-export default Navbar;
+export default Header;

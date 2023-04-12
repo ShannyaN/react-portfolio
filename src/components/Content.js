@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Portfolio from '../pages/Portfolio';
 import AboutMe from '../pages/AboutMe';
-
+import Contact from '../pages/Contact';
+import Resume from '../pages/Resume';
 
 export default function Content() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -15,10 +16,12 @@ export default function Content() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    // if (currentPage === 'Blog') {
-    //   return <Blog />;
-    // }
-    // return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
