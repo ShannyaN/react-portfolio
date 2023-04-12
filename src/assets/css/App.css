@@ -46,3 +46,27 @@
   border-color: #074f49;
 
 } 
+/* #281533; */
+div .card {
+  margin:3rem;
+  border-style: outset;
+  border-width: 20px;
+  background-color:#281533;
+  color: white
+}
+
+.aboutme img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.card h2{
+  text-align: center;
+  font-size: 4rem;
+  padding: 2rem;
+}
+.card p {
+  font-size: 2rem;
+  text-align: center;
+}
