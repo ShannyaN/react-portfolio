@@ -12,9 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.App-header h1 {
+  color:  #35074f;
+  font-size: 5rem;
+  font-weight: bolder;
+}
 .App-header {
-  background-color: #074f49;
+  background-image: url('../images/headerimg.png');
   min-height: 15vh;
   line-height: 1rem;
   display: flex;
@@ -38,6 +42,7 @@
   }
 }
 
-.nav {
-  color:red;
-}
+.navbar {
+  border-color: #074f49;
+
+} 
