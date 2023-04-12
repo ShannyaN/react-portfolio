@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Header from './Header';
-// import About from './pages/About';
-// import Blog from './pages/Blog';
-// import Contact from './pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import AboutMe from '../pages/AboutMe';
+
 
 export default function Content() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -12,9 +12,9 @@ export default function Content() {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
-    // if (currentPage === 'About') {
-    //   return <About />;
-    // }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
     // if (currentPage === 'Blog') {
     //   return <Blog />;
     // }
@@ -26,6 +26,7 @@ export default function Content() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* <Header /> */}
       {renderPage()}
     </div>
   );

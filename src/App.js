@@ -1,14 +1,8 @@
 import './assets/css/App.css';
-import Header from './components/Header';
+import Content from './components/Content';
 
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-    </div>
-  );
-}
+const App = () => <Content />;
 
 export default App;
 
