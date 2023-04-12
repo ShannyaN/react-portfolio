@@ -4,9 +4,9 @@ import proPic from '../assets/images/profileNiveyro.png'
 export default function AboutMe(){
     return(
         <div className='card aboutme' >
+            <h2>About Me</h2>
             <div className='container columns'>
                 <div className='row'>
-                    <h2>About Me</h2>
                     <div className='col-sm'>
                         <img src={proPic} alt="Profile."/>
                     </div>

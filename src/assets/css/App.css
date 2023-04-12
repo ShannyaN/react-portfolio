@@ -50,13 +50,13 @@
 
 } 
 /* #281533; */
-div .card {
+div .card  {
   margin: 10vw;
   margin-top: .5vw;
   border: #281533 outset 30px ;
   background-color:#d2bddf;
   color: white;
-  height: 100vh;
+  height: fit-content;
   padding:30px;
   color:  #35074f; 
 }
@@ -82,4 +82,20 @@ div .card {
 .card p {
   font-size: 2rem;
   text-align:center;
+}
+
+div .portfolio .card  {
+  background-color: rgb(204, 218, 251);
+  margin-top: .5vw;
+  border: #281533 outset 20px ;
+  color: white;
+  height:fit-content;
+  padding:10px;
+  color:  #35074f;
+}
+.portfolio h3 {
+  font-size: 2rem;
+}
+.portfolio p{
+  font-size: 1rem;
 }
