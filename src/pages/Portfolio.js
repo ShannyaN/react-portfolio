@@ -2,6 +2,9 @@ import React from 'react';
 import TT from '../components/portcards/TT'
 import LifeLog from '../components/portcards/LifeLog'
 import MySQLDB from '../components/portcards/MySQLDB'
+import PassGen from '../components/portcards/PassGen'
+import ReadGen from '../components/portcards/ReadGen';
+import Weather from '../components/portcards/Weather';
 
 export default function Portfolio(){
     return(
@@ -12,6 +15,9 @@ export default function Portfolio(){
           <TT />
           <LifeLog/>
           <MySQLDB/>
+          <PassGen/>
+          <ReadGen/>
+          <Weather/>
         </div>
       </section>
   </div>

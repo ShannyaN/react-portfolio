@@ -100,7 +100,7 @@ div .portfolio .card  {
   min-width: 20vw;
   width: 20vw;
   max-height: fit-content;
-
+  min-height: 60vh;
 }
 .portfolio img{
   
