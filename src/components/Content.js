@@ -27,9 +27,8 @@ export default function Content() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='back'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* <Header /> */}
       {renderPage()}
     </div>
   );

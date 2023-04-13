@@ -3,7 +3,7 @@ import proPic from '../assets/images/profileNiveyro.png'
 
 export default function AboutMe(){
     return(
-        <div className='card aboutme' >
+        <div className='card aboutme container' >
             <h2>About Me</h2>
             <div className='container columns'>
                 <div className='row'>

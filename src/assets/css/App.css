@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.back {
+  background-color: #f4f1ff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -50,13 +54,14 @@
   font-weight: bold;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
-/* #281533; */
+
 div .card  {
   margin: 10vw;
   margin-top: 0;
-  border: #281533 solid 20px ;
+  border: #281533 solid 5px ;
   border-radius: 0;
   border-top:0;
+  border-bottom:0;
   background-color:#d2bddf;
   height: fit-content;
   padding:50px;
@@ -64,7 +69,8 @@ div .card  {
 }
 
 .aboutme img {
-  max-width: 80%;
+  max-width: 100%;
+  min-width:100%;
   height: auto;
   border-radius: 15px;
   border-color:white ;
@@ -83,8 +89,9 @@ div .card  {
   border-bottom-style: solid;
 }
 .card p {
-  font-size: 2rem;
+  font-size:1.5rem;
   text-align:center;
+  padding-left: 0;
 }
 div .portfolio .container{
   flex-direction: row;

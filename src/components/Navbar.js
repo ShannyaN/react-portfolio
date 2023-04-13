@@ -10,8 +10,8 @@ export default function Navbar({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('AboutMe')}
                 className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
                 >About Me</a>
-              <a className="nav-link" href="#">Portfolio</a>
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" >Portfolio</a>
+              <a className="nav-link">Contact</a>
               <a className="nav-link">Resume</a>
             </div>
           </div>
