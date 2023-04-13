@@ -4,7 +4,9 @@ import lifelog from '/Users/babygirl/bootcamp/Challenges/react-portfolio/src/ass
 export default function LifeLog (){
     return (
         <div className='card col '>
-        <img src={lifelog} className="card-img-top" alt="Life Log."/>
+        <div className='text-center container'>
+                <img src={lifelog} className="card-img-top text-center img-fluid" alt="Life Log."/>
+        </div>
         <div className='card-body'>
           <h3 className='card-title'>Life Log</h3>
           <p className="card-text">Allows users to create an account and To Do lists within to do lists, view within a calendar, and set presets.  </p>
