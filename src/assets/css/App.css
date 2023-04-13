@@ -95,12 +95,14 @@ div .portfolio .card  {
   border: #281533 outset 15px ;
   height:fit-content;
   color:  #35074f;
-  padding: 0px;
+  padding: 10px;
   margin:15px;
   min-width:20vw;
+  max-width:30vw;
 }
 .portfolio img{
-  align-items: center;
+  align-content: center;
+  max-width: 400px;
 }
 .portfolio h3 {
   font-size: 2rem;

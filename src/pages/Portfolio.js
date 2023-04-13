@@ -1,6 +1,7 @@
 import React from 'react';
 import TT from '../components/portcards/TT'
-// import ttLogo from '../assets/images/TT.png'
+import LifeLog from '../components/portcards/LifeLog'
+import MySQLDB from '../components/portcards/MySQLDB'
 
 export default function Portfolio(){
     return(
@@ -9,20 +10,10 @@ export default function Portfolio(){
       <section className='container'>
         <div className='row'>
           <TT />
-          <TT/>
-          <TT/>
+          <LifeLog/>
+          <MySQLDB/>
         </div>
       </section>
   </div>
     )
 };
-// {/* <ul className="nav nav-tabs">
-//             <li className='nav-item'> 
-//               <a href=Life Log 
-//             </li>
-//             <li> Travel Tracker </li>
-//             <li> Employee Database with MySQL </li>
-//             <li> Weather App </li>
-//             <li> ReadMe Generator </li>
-//             <li> Password Generator </li> */}
-
