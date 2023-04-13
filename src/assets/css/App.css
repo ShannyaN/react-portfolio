@@ -16,6 +16,7 @@
   color:  #35074f;
   font-size: 5rem;
   font-weight: bolder;
+  text-shadow: 0 0 5px #ecc4e6, 0 0 10px #fff, 0 0 15px 
 }
 .App-header {
   background-image: url('../images/headerimg.png');
@@ -45,19 +46,20 @@
   }
 }
 
-.navbar {
-  border-color: #074f49;
-
-} 
+.navbar .active {
+  font-weight: bold;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
 /* #281533; */
 div .card  {
   margin: 10vw;
-  margin-top: .5vw;
-  border: #281533 outset 30px ;
+  margin-top: 0;
+  border: #281533 solid 20px ;
+  border-radius: 0;
+  border-top:0;
   background-color:#d2bddf;
-  color: white;
   height: fit-content;
-  padding:30px;
+  padding:50px;
   color:  #35074f; 
 }
 
@@ -74,6 +76,7 @@ div .card  {
   text-align: center;
   font-size: 4rem;
   padding: 2rem;
+  padding-top:1rem;
   margin:4rem;
   border-bottom-color: white;
   border-bottom-width: 5px;
@@ -83,19 +86,32 @@ div .card  {
   font-size: 2rem;
   text-align:center;
 }
-
+div .portfolio .container{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 div .portfolio .card  {
   background-color: rgb(204, 218, 251);
-  margin-top: .5vw;
-  border: #281533 outset 20px ;
-  color: white;
+  border: #281533 outset 15px ;
   height:fit-content;
-  padding:10px;
   color:  #35074f;
+  padding: 0px;
+  margin:15px;
+  min-width:20vw;
+}
+.portfolio img{
+  align-items: center;
 }
 .portfolio h3 {
   font-size: 2rem;
+  text-align: center;
 }
 .portfolio p{
   font-size: 1rem;
 }
+.linkbuttons button {
+  align-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
