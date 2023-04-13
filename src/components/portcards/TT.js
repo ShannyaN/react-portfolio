@@ -1,10 +1,10 @@
 import React from 'react';
-import TTlogo from '/Users/babygirl/bootcamp/Challenges/react-portfolio/src/assets/images/TT.png'
+import tt from '/Users/babygirl/bootcamp/Challenges/react-portfolio/src/assets/images/portIcons/tt.png'
 
 export default function TT (){
     return (
         <div className='card col '>
-        <img src={TTlogo} className="card-img-top" alt="Travel Tracker."/>
+        <img src={tt} className="card-img-top" alt="Travel Tracker."/>
         <div className='card-body'>
           <h3 className='card-title'>Travel Tracker</h3>
           <p className="card-text">Created using JavaScript, Express, Node, and APIs. Lets users drop, drag, and remove pins on map locations that can be searched to find. Airport selections based on pin locations. </p>
