@@ -59,6 +59,7 @@
 div .card  {
   margin: 10vw;
   margin-top: 0;
+  margin-bottom: 0;
   border: #281533 solid 5px ;
   border-radius: 0;
   border-top:0;
@@ -146,4 +147,16 @@ div .portfolio .card  {
   text-decoration: none;
   font-size: 1.5rem;
   text-align: center;
+}
+footer{
+  background-color: #281533;
+  display:flexbox;
+  align-items: center; 
+  align-content: center;
+
+}
+footer img{
+ max-width: 85px;
+ align-items: center;
+ 
 }

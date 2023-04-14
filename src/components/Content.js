@@ -4,7 +4,7 @@ import Portfolio from '../pages/Portfolio';
 import AboutMe from '../pages/AboutMe';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
-
+import Footer from './Footer'
 export default function Content() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
@@ -30,6 +30,7 @@ export default function Content() {
     <div className='back'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer/>
     </div>
   );
 }
