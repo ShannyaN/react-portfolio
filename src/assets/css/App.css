@@ -57,7 +57,7 @@
 }
 
 div .card  {
-  margin: 10vw;
+  margin: 15vw;
   margin-top: 0;
   margin-bottom: 0;
   border: #281533 solid 5px ;
@@ -85,8 +85,9 @@ div .card  {
   text-align: center;
   font-size: 4rem;
   padding: 2rem;
-  padding-top:1rem;
-  margin:4rem;
+  padding-top:0rem;
+  margin:2rem;
+  margin-top: 0;
   border-bottom-color: white;
   border-bottom-width: 5px;
   border-bottom-style: solid;
@@ -107,8 +108,9 @@ div .portfolio .card  {
   color:  #35074f;
   padding: 10px;
   margin:15px;
-  min-width: 20vw;
   width: 20vw;
+  min-width: 15vw;
+
   max-height: fit-content;
   min-height: 60vh;
 }

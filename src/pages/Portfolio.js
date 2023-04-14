@@ -12,7 +12,7 @@ export default function Portfolio(){
       <h2>Portfolio</h2>
       <section className='container'>
         <div className='row'>
-          <TT />
+          <TT/>
           <LifeLog/>
           <MySQLDB/>
           <PassGen/>
