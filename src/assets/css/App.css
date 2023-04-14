@@ -162,3 +162,17 @@ footer img{
  align-items: center;
  
 }
+.resume img{
+  max-width: 500px;
+  height: auto;
+  align-content: center;
+  align-self: center;
+}
+.resume {
+  text-align: center;
+  align-content: center;
+  align-self: center;
+}
+.resume ul{
+  list-style: none;
+}

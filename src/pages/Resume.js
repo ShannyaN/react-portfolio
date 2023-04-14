@@ -2,7 +2,7 @@ import React from 'react';
 import resume from '/Users/babygirl/bootcamp/Challenges/react-portfolio/src/assets/images/resume.png';
 export default function Resume(){
     return(
-        <div className='card container'>
+        <div className='card container resume'>
             <h2>Resume</h2>
             <h3> Skills</h3> 
                 <ul>

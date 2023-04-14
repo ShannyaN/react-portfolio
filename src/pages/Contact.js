@@ -16,7 +16,7 @@ function Contact() {
             });
         }, false);
     return(
-        <div className='container card pt-0 justify-content-even '>
+        <div className='container h-100 contact card pt-0 justify-content-even '>
             <h2 >Contact</h2>
             <div className='container'>
             <form Name="needs-validation" novalidate>
