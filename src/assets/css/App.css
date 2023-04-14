@@ -129,6 +129,10 @@ div .portfolio .card  {
   align-self: center;
   margin: 5px;
 }
+.reg{
+  color:white;
+  text-decoration: none;
+}
 .card .btn {
   background-color: #281533;
   color: white;
@@ -137,3 +141,9 @@ div .portfolio .card  {
   text-align: center;
 }
 
+#resdown {
+  color:#281533 ;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+}

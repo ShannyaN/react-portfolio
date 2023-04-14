@@ -11,7 +11,10 @@ export default function ReadGen (){
                 <h3 className='card-title'>ReadMe Generator</h3>
                 <p className="card-text"> Application using inquirer that generates a ReadMe.md file based on the user's inputs.</p>
             <div className='d-flex linkbuttons container columns '> 
-                <button type='button' href="https://github.com/ShannyaN/seven-ReadMeGen" className="btn column btn-primary">Repository
+                <button className="btn column btn-primary">
+                    <a className='reg' href='https://lifelog.herokuapp.com/'>
+                        Repository
+                     </a>
                 </button>
             </div>
         </div>

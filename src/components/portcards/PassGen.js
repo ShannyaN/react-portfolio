@@ -11,10 +11,16 @@ export default function PassGen (){
           <h3 className='card-title'>Password Generator</h3>
           <p className="card-text">Creates unique passwords based on parameters input by users. </p>
           <div className='d-flex linkbuttons container columns '> 
-            <button type='button' href="https://shannyan.github.io/three-pwdgen/" className="btn btn-primary column ">Deployed App
+            <button className="btn column btn-primary">
+              <a className='reg' href='https://shannyan.github.io/three-pwdgen/'>
+                  Application
+              </a>
             </button>
             &emsp;
-            <button type='button' href="https://github.com/ShannyaN/three-pwdgen" className="btn column btn-primary">Repository
+            <button className="btn column btn-primary">
+              <a className='reg' href="https://github.com/ShannyaN/three-pwdgen">
+                  Repository
+              </a>
             </button>
           </div>
         </div>
