@@ -18,22 +18,19 @@ Must run an npm i to access the software libraries and packages and libraries us
 ## Usage  
 If an employer were interested in hiring, they could view this profile to get a sense of who I am as a person and developer.  
   
-## License  
-none  
-  
 ## Contributions  
 no   
-   
-## Tests   
-none   
    
 ## Questions  
 Take a closer look at this repo and my other work by visiting my GitHub with the link below, or contact me directly by email.  
 GitHub: https://github.com/ShannyaNShannyaN  
 Email: niveyro101@gmail.comniveyro101@gmail.com  
 ## Screenshots  
-![screenshot1]  
-![screenshot2]  
+![aboutmePreview](./src/assets/images/read/aboutme.png) 
+![portfolioPreview](./src/assets/images/read/port.png) 
+![contactPreview](./src/assets/images/read/contact.png) 
+![resumePreview](./src/assets/images/read/resume.png) 
+
 ## Links  
 Deployed site: https://shannyan.github.io/react-portfolio/  
 Repository: https://github.com/ShannyaN/react-portfolio
