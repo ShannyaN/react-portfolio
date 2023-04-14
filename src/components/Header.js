@@ -8,9 +8,9 @@ function Header({ currentPage, handlePageChange }) {
         <h1> Shannya Niveyro </h1>
         {/* <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/> */}
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
+        <div class="container-fluid ">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav  ">
               <a href='#aboutme' onClick={() => handlePageChange('AboutMe')}
                 className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
                 >About Me</a>

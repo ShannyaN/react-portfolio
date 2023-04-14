@@ -11,10 +11,10 @@ export default function Weather (){
           <h3 className='card-title'>Weather Application</h3>
           <p className="card-text">Allows users to search and log a list of cities that generate a five day forecast.</p>
           <div className='d-flex linkbuttons container columns '> 
-            <button type='button' href="https://shannyan.github.io/three-pwdgen/" className="btn btn-primary column ">Deployed App
+            <button type='button' href="https://shannyan.github.io/six-weather/" className="btn btn-primary column ">Deployed App
             </button>
             &emsp;
-            <button type='button' href="https://github.com/ShannyaN/three-pwdgen" className="btn column btn-primary">Repository
+            <button type='button' href="https://github.com/ShannyaN/six-weather" className="btn column btn-primary">Repository
             </button>
           </div>
         </div>

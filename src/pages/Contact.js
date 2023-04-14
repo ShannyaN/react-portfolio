@@ -16,8 +16,9 @@ function Contact() {
             });
         }, false);
     return(
-        <div className='container card pt-0'>
-            <h2 className='is-centered'>Contact</h2>
+        <div className='container card pt-0 justify-content-even '>
+            <h2 >Contact</h2>
+            <div className='container'>
             <form Name="needs-validation" novalidate>
                 <div className="form-row">
                     <div className="col-md-4">
@@ -54,8 +55,9 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <button className="btn btn-primary" type="submit">Send Message</button>
+                <button className="btn" type="submit">Send Message</button>
             </form> 
+            </div>
         </div>
         );
 };
