@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './App'
+import AppButton from './AppButton'
 
 function Projects ({projectList}){ 
     return projectList.map(project => {
@@ -12,7 +12,7 @@ function Projects ({projectList}){
                 <h3 className='card-title'>{project.name}</h3>
                 <p className="card-text">{project.desc}</p>
                 <div className='d-flex linkbuttons container columns'> 
-                    <App app={project.app}/>
+                    <AppButton app={project.app}/>
                     <button className="btn column btn-primary">
                         <a className='reg' href={project.repo}>
                             Repository
