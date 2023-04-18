@@ -1,20 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
+//parts of the page present no matter what
 import Header from './Header';
+import Footer from './Footer'
+//the page files referenced within the navbar 
 import Portfolio from '../pages/Portfolio';
 import AboutMe from '../pages/AboutMe';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
-import Footer from './Footer'
+import projectList from './ProjectList';
+
+
 export default function Content() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
-
-
+//based on the tab of the navbar selected/the currentPage state, the content of the page will be rendered
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio projectList={projectList} />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -23,7 +27,7 @@ export default function Content() {
       return <Resume />;
     }
   };
-
+//assigning the state of the current
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (

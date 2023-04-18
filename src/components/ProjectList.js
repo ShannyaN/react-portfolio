@@ -1,3 +1,10 @@
+
+import LifeLoglogo from '../assets/images/portIcons/lifelog.png'
+import MySQLDBlogo from '../assets/images/portIcons/db.png'
+import PassGenlogo from '../assets/images/portIcons/pwd.png'
+import ReadGenlogo from '../assets/images/portIcons/readme.png'
+import Weatherlogo from '../assets/images/portIcons/weather.png'
+
 const projectList = [
     {
       name: 'Life Log',
