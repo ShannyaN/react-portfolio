@@ -21,6 +21,13 @@ const projectList = [
         app: 'https://bobbycharms.github.io/travel-tracker/',
         repo: 'https://github.com/BobbyCharms/travel-tracker',
       },
+      {
+        name: 'Weather Application',
+        image: Weatherlogo,
+        desc: 'Allows users to search and log a list of cities that generate a five day forecast. ',
+        app: 'https://shannyan.github.io/six-weather/',
+        repo: 'https://github.com/ShannyaN/six-weather',
+      },
     {
         name: 'MySQL Database',
         image: MySQLDBlogo,
@@ -34,7 +41,12 @@ const projectList = [
         app: 'https://shannyan.github.io/three-pwdgen/',
         repo: 'https://github.com/ShannyaN/three-pwdgen',
       },
-
+      {
+        name: 'ReadMe Generator',
+        image: ReadGenlogo,
+        desc: "Application using inquirer that generates a ReadMe.md file based on the user's inputs.",
+        repo: 'https://github.com/ShannyaN/seven-ReadMeGen'
+      },
   ]
 
 export default projectList;
