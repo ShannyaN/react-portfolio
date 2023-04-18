@@ -1,26 +1,23 @@
 import React from 'react';
-import lifelog from '../assets/images/portIcons/lifelog.png'
-import db from '../assets/images/portIcons/db.png'
-import pwd from '../assets/images/portIcons/lifelog.png'
 
-export default function LifeLog (){
+export default function Projects ({project}){
     return (
         <div className='card col '>
         <div className='text-center container'>
-                <img src={lifelog} className="card-img-top text-center img-fluid" alt="Life Log."/>
+                <img src={project.image} className="card-img-top text-center img-fluid" alt={project.name} />
         </div>
         <div className='card-body'>
-          <h3 className='card-title'>Life Log</h3>
-          <p className="card-text">Allows users to create an account and To Do lists within to do lists, view within a calendar, and set presets.  </p>
+          <h3 className='card-title'>{project.name}</h3>
+          <p className="card-text">{project.desc}</p>
           <div className='d-flex linkbuttons container columns '> 
             <button className="btn column btn-primary">
-              <a className='reg' href='https://lifelog.herokuapp.com/'>
+              <a className='reg' href={project.app}>
                   Application
               </a>
             </button>
             &emsp;
             <button className="btn column btn-primary">
-              <a className='reg' href='https://github.com/emmaparis/Project-2'>
+              <a className='reg' href={project.repo}>
                   Repository
               </a>
             </button>
