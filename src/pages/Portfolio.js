@@ -1,6 +1,6 @@
 import React from 'react';
 import Projects from '../components/Projects'
-// import ProjectList from '../components/ProjectList';
+import ProjectList from '../components/ProjectList';
 import TT from '../components/portcards/TT'
 import LifeLog from '../components/portcards/LifeLog'
 import LifeLoglogo from '../assets/images/portIcons/lifelog.png'
@@ -19,7 +19,7 @@ import Weatherlogo from '../assets/images/portIcons/weather.png'
 //   });
 // }
 
-function Portfolio(projectList){
+function Portfolio({projectList}){
   return(
       <div className='card portfolio d-flex justify-content-even ' >
       <h2>Portfolio</h2>

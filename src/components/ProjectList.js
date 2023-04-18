@@ -12,7 +12,13 @@ const projectList = [
       desc: 'Allows users to create an account and To Do lists within to do lists, view within a calendar, and set presets. ',
       app: 'https://lifelog.herokuapp.com/',
       repo: 'https://github.com/emmaparis/Project-2'
-    }
+    },
+    {
+        name: 'MySQL Database',
+        image: MySQLDBlogo,
+        desc: 'Database created using Sequalize with MySQL for users to view, add, remove, and update departments, roles, and salaries. ',
+        repo: 'https://github.com/ShannyaN/twelve-MySqlDB'
+      },
   ]
 
-  export default projectList;
+export default projectList;
